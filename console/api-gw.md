@@ -4,7 +4,7 @@
 
 https://ap-northeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-northeast-2
 
-2) [API Gateway 생성](https://github.com/kyopark2014/apigw-rest-querystring/blob/main/create-apigw.md)을 따라서 아래처럼 API Gateway를 생성합니다. 
+2) [API Gateway 생성](https://github.com/brotheroak/apigw-rest-querystring/blob/main/create-apigw.md)을 따라서 아래처럼 API Gateway를 생성합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/175080942-d74b2cf0-1df6-410f-94d7-81b1f2dfe1a6.png)
 
