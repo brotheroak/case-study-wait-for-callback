@@ -21,11 +21,11 @@ Step Functions을 이용하여 "Wait for Callback" 패턴을 구현하고자 합
 
 ## 2) Console로 인프라 생성하기 
 
-[Console에서 인프라 생성하기](https://github.com/kyopark2014/case-study-wait-for-callback/blob/main/console/README.md)를 따라서 인프라를 생성 할 수 있습니다. 전체 flow를 이해하는데 용이하고, AWS console에 익숙해질수 있는 방법입니다. 
+[Console에서 인프라 생성하기](https://github.com/brotheroak/case-study-wait-for-callback/blob/main/console/README.md)를 따라서 인프라를 생성 할 수 있습니다. 전체 flow를 이해하는데 용이하고, AWS console에 익숙해질수 있는 방법입니다. 
 
 ## 3) CDK로 인프라 생성하기 
 
-[CDK로 "Wait-for-Callback"을 Step Function으로 구현하기](https://github.com/kyopark2014/case-study-wait-for-callback/blob/main/cdk-callback/README.md)에서는 [AWS CDK](https://github.com/kyopark2014/technical-summary/blob/main/cdk-introduction.md)를 이용하여 인프라를 생성합니다. 
+[CDK로 "Wait-for-Callback"을 Step Function으로 구현하기](https://github.com/brotheroak/case-study-wait-for-callback/blob/main/cdk-callback/README.md)에서는 [AWS CDK](https://github.com/brotheroak/technical-summary/blob/main/cdk-introduction.md)를 이용하여 인프라를 생성합니다. 
 
 ### 인프라 생성방법
 
@@ -33,11 +33,11 @@ Step Functions을 이용하여 "Wait for Callback" 패턴을 구현하고자 합
 
 1) 코드 다운로드 하기 
 ```c
-$ git clone https://github.com/kyopark2014/case-study-wait-for-callback
+$ git clone https://github.com/brotheroak/case-study-wait-for-callback
 $ cd cdk-callback
 ```
 
-2) ["lib/cdk-callback-stack.ts"](https://github.com/kyopark2014/case-study-wait-for-callback/blob/main/cdk-callback/lib/cdk-callback-stack.ts)에서 아래 부분을 수신받을 email 주소로 변경합니다.
+2) ["lib/cdk-callback-stack.ts"](https://github.com/brotheroak/case-study-wait-for-callback/blob/main/cdk-callback/lib/cdk-callback-stack.ts)에서 아래 부분을 수신받을 email 주소로 변경합니다.
 
 ```java
 topic.addSubscription(new subscriptions.EmailSubscription('user@gmail.com'));
