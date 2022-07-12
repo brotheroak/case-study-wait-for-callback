@@ -1,7 +1,7 @@
 # Lambda for verification success
 
 
-1) Lambda console에서 [Create function]으로 Lambda를 생성합니다. 이때 Function name을 "lambda-for-verification-message"로 입력하고 나머지는 모두 기본값으로 합니다. 
+1) Lambda console에서 [Create function]으로 Lambda를 생성합니다. 이때 Function name을 "lambda-for-verification-success"로 입력하고 나머지는 모두 기본값으로 합니다. 
 
 https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#/functions
 
