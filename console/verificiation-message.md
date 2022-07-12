@@ -38,5 +38,5 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 4) 코드를 입력합니다. 
 
-[lambda for verification message](https://github.com/kyopark2014/case-study-wait-for-callback/blob/main/lambda-for-verification-message/index.js)의 index.js를 복사하여 Lambda에 붙여넣기를 합니다. 
+[lambda for verification message](https://github.com/brotheroak/case-study-wait-for-callback/blob/main/lambda-for-verification-message/index.js)의 index.js를 복사하여 Lambda에 붙여넣기를 합니다. 
 
